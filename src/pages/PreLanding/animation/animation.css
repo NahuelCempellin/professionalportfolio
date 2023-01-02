@@ -1,0 +1,57 @@
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    font-size: 1.5em;
+    border-right: .15em solid orange;
+     white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    /* word-break: break-all; */
+    width: 100%;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+
+  #ig{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #6a2ae8; }
+  }
+
+
+
+  #animate {
+    animation-duration: 0.5s;
+    animation-name: animate-fade;
+    animation-delay: 4.5s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes animate-fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+ 
+
+
+
+ 
