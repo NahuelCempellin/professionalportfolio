@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import {Route , Routes} from 'react-router-dom'
 import PreLanding from './pages/PreLanding/preLanding';
 import LandingPage from './pages/LandingPage/landingPage';
-import Home from './components/home/Home';
+import Home from './pages/home/Home';
 
 
 function App() {

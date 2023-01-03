@@ -1,5 +1,6 @@
 import React from 'react'
-import NavLogout from '../Navbar/NavLogout'
+import NavLogout from '../../components/Navbar/NavLogout'
+import Login from '../auth/login'
 
 const Home = () => {
   return (
@@ -11,10 +12,11 @@ const Home = () => {
        
    </div>
    
-   <div className='w-[80%] flex flex-col items-center'>
+   <div className='w-[80%] flex flex-col items-center justify-center  mt-20 ml-20'>
    <div className='typewriter'>
     <h1>Welcome Back Master... Please, signin</h1>
    </div>
+   <Login/>
    </div>
     </div>
   )
